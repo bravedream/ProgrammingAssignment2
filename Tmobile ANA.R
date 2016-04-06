@@ -50,6 +50,6 @@ hist(t$daydiff_12[t$daydiff_12<0])
 summary(t$daydiff_01[t$daydiff_01<0])
 summary(t$daydiff_12[t$daydiff_12<0])
 summary(t$daydiff_23[t$daydiff_23<0])
-summary(t$daydiff_34[t$daydiff_34<0])
+
 
 

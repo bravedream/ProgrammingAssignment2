@@ -47,9 +47,6 @@ boxplot(t$Quality_Month1,t$Quality_Month2,t$Quality_Month3,t$Quality_Month4,t$Qu
 
 table(t$ServiceProviderName)
 hist(t$daydiff_12[t$daydiff_12<0])
-summary(t$daydiff_01[t$daydiff_01<0])
-summary(t$daydiff_12[t$daydiff_12<0])
-summary(t$daydiff_23[t$daydiff_23<0])
 
 
 

@@ -45,8 +45,5 @@ boxplot(t$Quality_Month1,t$Quality_Month2,t$Quality_Month3,t$Quality_Month4,t$Qu
 	ylim =range(c(t$Quality_Month1,t$Quality_Month2,t$Quality_Month3,t$Quality_Month4,
 	t$Quality_Month5,t$Quality_Month6),na.rm=T),names=c("mo1","mo2","mo3","mo4","mo5","mo6"),main="Quality Rating by Manager")
 
-table(t$ServiceProviderName)
-hist(t$daydiff_12[t$daydiff_12<0])
-
 
 
